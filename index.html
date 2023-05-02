@@ -14,9 +14,9 @@
 
   <body id="wasm-example">
     <script type="module">
-      import init, { greet } from "./pkg/wgpu_test.js";
+      import init, { greet, render_canvas } from "./pkg/wgpu_test.js";
       init().then(() => {
-        greet();
+        render_canvas();
       });
     </script>
   </body>
